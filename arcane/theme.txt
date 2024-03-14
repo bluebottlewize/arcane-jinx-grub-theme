@@ -1,0 +1,42 @@
+title-text: ""
+title-font: "Dersu Uzala brush Regular 60"
+desktop-image: "jinx-shooting.png"
+terminal-font: "Fira Code Regular 16"
+terminal-left: "0"
+terminal-top: "0"
+terminal-width: "100%"
+terminal-height: "100%"
+terminal-border: "0"
+
+
+
++ boot_menu {
+    left = 0%
+    width = 55%
+    top = 25%
+    height = 700
+    item_height = 85
+    item_padding = 0
+    icon_width = 10
+    icon_height = 0
+    item_icon_space = 180
+    item_spacing = 15
+    item_font =  "Help Me Regular 40"
+    item_color = "#40086f"
+    selected_item_font = "Help Me Regular 40"
+    selected_item_color = "#d10bff"
+    selected_item_pixmap_style = "select_*.png"
+}
+
++ label {
+    id = "__timeout__"
+    left = 180
+    top = 90%
+    width = 300
+    height = 24
+    font = "Help Me Regular 24"
+    color = "#40086f"
+    align = "center"
+    text = "There is always a choice: %d s"
+}
+
