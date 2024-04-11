@@ -16,4 +16,4 @@ $ ./install.sh
 
 ## Screenshot
 
-
+![alt text](screenshot.png)
